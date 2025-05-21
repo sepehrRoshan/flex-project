@@ -1,0 +1,76 @@
+* {
+  font-family: "outfit", sans-serif;
+}
+
+body {
+  margin: 0;
+  background-image: url("resources/Background_image.svg");
+  background-color: #121826;
+  color: white;
+}
+
+.heading {
+  text-align: center;
+  margin-top: 5rem;
+  margin-bottom: 10px;
+  font-weight: 500;
+  font-size: 3rem;
+}
+
+.description {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 50px;
+  font-weight: 300;
+  color: #9da3ae;
+}
+
+.container {
+  display: flex;
+  width: 100vw;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+  margin-bottom: 10px;
+}
+
+.card-image {
+  width: 350px;
+  border-radius: 10px;
+}
+
+.card {
+  background: #212936;
+  border-radius: 10px;
+  padding: 20px;
+  width: 360px;
+  display: flex;
+  flex-direction: column;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+.hand {
+  background: #fceed8;
+}
+
+.goal {
+  background: #dee9fc;
+}
+
+.command {
+  background: #fbe5e6;
+}
+
+.card-description {
+  color: #d2d5da;
+}
